@@ -1,0 +1,4 @@
+bundle_ppe_mission2_bootstrap:
+    resource: "@bundlePPEMission2BootstrapBundle/Resources/config/routing.yml"
+    prefix:   /hopital/
+

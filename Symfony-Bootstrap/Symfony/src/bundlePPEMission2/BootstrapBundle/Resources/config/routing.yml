@@ -1,0 +1,7 @@
+bundle_ppe_mission2_bootstrap_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:index }
+
+bundle_ppe_mission2_bootstrap_accueil:
+    pattern:  /accueil/
+    defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:accueil }
