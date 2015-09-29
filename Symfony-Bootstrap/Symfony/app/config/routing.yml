@@ -1,4 +1,4 @@
-ppe_symf_bootstrapppe:
-    resource: "@ppeSymfBootstrapppeBundle/Resources/config/routing.yml"
+bundle_ppe_mission2_bootstrap:
+    resource: "@bundlePPEMission2BootstrapBundle/Resources/config/routing.yml"
     prefix:   /hopital/
 

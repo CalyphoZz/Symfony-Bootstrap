@@ -1,3 +1,0 @@
-ppe_symf_bootstrapppe_homepage:
-    pattern:  /accueil/
-    defaults: { _controller: ppeSymfBootstrapppeBundle:Default:accueil }

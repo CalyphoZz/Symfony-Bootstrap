@@ -1,0 +1,7 @@
+parameters:
+#    bundle_ppe_mission2_bootstrap.example.class: bundlePPEMission2\BootstrapBundle\Example
+
+services:
+#    bundle_ppe_mission2_bootstrap.example:
+#        class: %bundle_ppe_mission2_bootstrap.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

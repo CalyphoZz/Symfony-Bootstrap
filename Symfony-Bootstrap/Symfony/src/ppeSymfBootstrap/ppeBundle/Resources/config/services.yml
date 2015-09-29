@@ -1,7 +1,0 @@
-parameters:
-#    ppe_symf_bootstrapppe.example.class: ppeSymfBootstrap\ppeBundle\Example
-
-services:
-#    ppe_symf_bootstrapppe.example:
-#        class: %ppe_symf_bootstrapppe.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,33 @@
+bundle_ppe_mission2_bootstrap_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:index }
+
+bundle_ppe_mission2_bootstrap_accueil:
+    pattern:  /accueil/
+    defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:accueil }
+
+bundle_ppe_mission2_bootstrap_services:
+    pattern:  /services/
+    defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:services }
+
+bundle_ppe_mission2_bootstrap_personnel:
+    pattern:  /personnel/
+    defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:personnel }
+
+bundle_ppe_mission2_bootstrap_annuaire:
+    pattern:  /annuaire/
+    defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:annuaire }
+
+bundle_ppe_mission2_bootstrap_horaires:
+    pattern:  /horaires/
+    defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:horaires }
+
+bundle_ppe_mission2_bootstrap_plan:
+    pattern:  /plan/
+    defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:plan }
+
+bundle_ppe_mission2_bootstrap_infos:
+    pattern:  /infos/
+    defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:infos }
+
+

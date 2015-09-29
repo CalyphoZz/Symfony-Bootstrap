@@ -2861,7 +2861,7 @@ class appDevDebugProjectContainer extends Container
         $instance->addPath('/var/www/html/Symfony-Bootstrap/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views', 'Twig');
         $instance->addPath('/var/www/html/Symfony-Bootstrap/Symfony/vendor/symfony/swiftmailer-bundle/Symfony/Bundle/SwiftmailerBundle/Resources/views', 'Swiftmailer');
         $instance->addPath('/var/www/html/Symfony-Bootstrap/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Resources/views', 'Doctrine');
-        $instance->addPath('/var/www/html/Symfony-Bootstrap/Symfony/src/ppeSymfBootstrap/ppeBundle/Resources/views', 'ppeSymfBootstrapppe');
+        $instance->addPath('/var/www/html/Symfony-Bootstrap/Symfony/src/bundlePPEMission2/BootstrapBundle/Resources/views', 'bundlePPEMission2Bootstrap');
         $instance->addPath('/var/www/html/Symfony-Bootstrap/Symfony/src/Acme/DemoBundle/Resources/views', 'AcmeDemo');
         $instance->addPath('/var/www/html/Symfony-Bootstrap/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views', 'WebProfiler');
         $instance->addPath('/var/www/html/Symfony-Bootstrap/Symfony/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views', 'SensioDistribution');
@@ -3312,7 +3312,7 @@ class appDevDebugProjectContainer extends Container
                 'AsseticBundle' => 'Symfony\\Bundle\\AsseticBundle\\AsseticBundle',
                 'DoctrineBundle' => 'Doctrine\\Bundle\\DoctrineBundle\\DoctrineBundle',
                 'SensioFrameworkExtraBundle' => 'Sensio\\Bundle\\FrameworkExtraBundle\\SensioFrameworkExtraBundle',
-                'ppeSymfBootstrapppeBundle' => 'ppeSymfBootstrap\\ppeBundle\\ppeSymfBootstrapppeBundle',
+                'bundlePPEMission2BootstrapBundle' => 'bundlePPEMission2\\BootstrapBundle\\bundlePPEMission2BootstrapBundle',
                 'AcmeDemoBundle' => 'Acme\\DemoBundle\\AcmeDemoBundle',
                 'WebProfilerBundle' => 'Symfony\\Bundle\\WebProfilerBundle\\WebProfilerBundle',
                 'SensioDistributionBundle' => 'Sensio\\Bundle\\DistributionBundle\\SensioDistributionBundle',

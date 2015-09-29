@@ -133,13 +133,75 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
-        // ppe_symf_bootstrapppe_homepage
-        if (rtrim($pathinfo, '/') === '/hopital/accueil') {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'ppe_symf_bootstrapppe_homepage');
+        if (0 === strpos($pathinfo, '/hopital')) {
+            // bundle_ppe_mission2_bootstrap_homepage
+            if (0 === strpos($pathinfo, '/hopital/hello') && preg_match('#^/hopital/hello/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'bundle_ppe_mission2_bootstrap_homepage')), array (  '_controller' => 'bundlePPEMission2\\BootstrapBundle\\Controller\\DefaultController::indexAction',));
             }
 
-            return array (  '_controller' => 'ppeSymfBootstrap\\ppeBundle\\Controller\\DefaultController::accueilAction',  '_route' => 'ppe_symf_bootstrapppe_homepage',);
+            // bundle_ppe_mission2_bootstrap_accueil
+            if (rtrim($pathinfo, '/') === '/hopital/accueil') {
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'bundle_ppe_mission2_bootstrap_accueil');
+                }
+
+                return array (  '_controller' => 'bundlePPEMission2\\BootstrapBundle\\Controller\\DefaultController::accueilAction',  '_route' => 'bundle_ppe_mission2_bootstrap_accueil',);
+            }
+
+            // bundle_ppe_mission2_bootstrap_services
+            if (rtrim($pathinfo, '/') === '/hopital/services') {
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'bundle_ppe_mission2_bootstrap_services');
+                }
+
+                return array (  '_controller' => 'bundlePPEMission2\\BootstrapBundle\\Controller\\DefaultController::servicesAction',  '_route' => 'bundle_ppe_mission2_bootstrap_services',);
+            }
+
+            // bundle_ppe_mission2_bootstrap_personnel
+            if (rtrim($pathinfo, '/') === '/hopital/personnel') {
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'bundle_ppe_mission2_bootstrap_personnel');
+                }
+
+                return array (  '_controller' => 'bundlePPEMission2\\BootstrapBundle\\Controller\\DefaultController::personnelAction',  '_route' => 'bundle_ppe_mission2_bootstrap_personnel',);
+            }
+
+            // bundle_ppe_mission2_bootstrap_annuaire
+            if (rtrim($pathinfo, '/') === '/hopital/annuaire') {
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'bundle_ppe_mission2_bootstrap_annuaire');
+                }
+
+                return array (  '_controller' => 'bundlePPEMission2\\BootstrapBundle\\Controller\\DefaultController::annuaireAction',  '_route' => 'bundle_ppe_mission2_bootstrap_annuaire',);
+            }
+
+            // bundle_ppe_mission2_bootstrap_horaires
+            if (rtrim($pathinfo, '/') === '/hopital/horaires') {
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'bundle_ppe_mission2_bootstrap_horaires');
+                }
+
+                return array (  '_controller' => 'bundlePPEMission2\\BootstrapBundle\\Controller\\DefaultController::horairesAction',  '_route' => 'bundle_ppe_mission2_bootstrap_horaires',);
+            }
+
+            // bundle_ppe_mission2_bootstrap_plan
+            if (rtrim($pathinfo, '/') === '/hopital/plan') {
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'bundle_ppe_mission2_bootstrap_plan');
+                }
+
+                return array (  '_controller' => 'bundlePPEMission2\\BootstrapBundle\\Controller\\DefaultController::planAction',  '_route' => 'bundle_ppe_mission2_bootstrap_plan',);
+            }
+
+            // bundle_ppe_mission2_bootstrap_infos
+            if (rtrim($pathinfo, '/') === '/hopital/infos') {
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'bundle_ppe_mission2_bootstrap_infos');
+                }
+
+                return array (  '_controller' => 'bundlePPEMission2\\BootstrapBundle\\Controller\\DefaultController::infosAction',  '_route' => 'bundle_ppe_mission2_bootstrap_infos',);
+            }
+
         }
 
         // _welcome
