@@ -14,6 +14,7 @@ class DefaultController extends Controller
     {
         return $this->render('bundlePPEMission2BootstrapBundle:Default:accueil.html.twig');
     }
+<<<<<<< HEAD
     public function servicesAction()
     {
         return $this->render('bundlePPEMission2BootstrapBundle:Default:services.html.twig');
@@ -38,4 +39,6 @@ class DefaultController extends Controller
     {
         return $this->render('bundlePPEMission2BootstrapBundle:Default:infos.html.twig');
     }
+=======
+>>>>>>> 7539ca88f2b8bc04c6e2d2a3b48e5517deca7a56
 }

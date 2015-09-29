@@ -73,6 +73,7 @@
 [2015-09-22 18:44:06] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse". [] []
 [2015-09-22 18:44:06] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse". [] []
 [2015-09-22 18:44:06] event.DEBUG: Notified event "kernel.terminate" to listener "Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onKernelTerminate". [] []
+<<<<<<< HEAD
 [2015-09-22 19:33:40] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest". [] []
 [2015-09-22 19:33:40] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest". [] []
 [2015-09-22 19:33:40] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest". [] []
@@ -930,3 +931,5 @@
 [2015-09-29 16:21:58] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse". [] []
 [2015-09-29 16:21:58] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse". [] []
 [2015-09-29 16:21:58] event.DEBUG: Notified event "kernel.terminate" to listener "Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onKernelTerminate". [] []
+=======
+>>>>>>> 7539ca88f2b8bc04c6e2d2a3b48e5517deca7a56

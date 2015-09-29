@@ -148,6 +148,7 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 return array (  '_controller' => 'bundlePPEMission2\\BootstrapBundle\\Controller\\DefaultController::accueilAction',  '_route' => 'bundle_ppe_mission2_bootstrap_accueil',);
             }
 
+<<<<<<< HEAD
             // bundle_ppe_mission2_bootstrap_services
             if (rtrim($pathinfo, '/') === '/hopital/services') {
                 if (substr($pathinfo, -1) !== '/') {
@@ -202,6 +203,8 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 return array (  '_controller' => 'bundlePPEMission2\\BootstrapBundle\\Controller\\DefaultController::infosAction',  '_route' => 'bundle_ppe_mission2_bootstrap_infos',);
             }
 
+=======
+>>>>>>> 7539ca88f2b8bc04c6e2d2a3b48e5517deca7a56
         }
 
         // _welcome

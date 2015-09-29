@@ -4,6 +4,7 @@ bundle_ppe_mission2_bootstrap_homepage:
 
 bundle_ppe_mission2_bootstrap_accueil:
     pattern:  /accueil/
+<<<<<<< HEAD
     defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:accueil }
 
 bundle_ppe_mission2_bootstrap_services:
@@ -31,3 +32,6 @@ bundle_ppe_mission2_bootstrap_infos:
     defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:infos }
 
 
+=======
+    defaults: { _controller: bundlePPEMission2BootstrapBundle:Default:accueil }
+>>>>>>> 7539ca88f2b8bc04c6e2d2a3b48e5517deca7a56

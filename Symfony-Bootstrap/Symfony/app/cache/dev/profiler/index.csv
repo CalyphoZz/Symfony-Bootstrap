@@ -1,6 +1,7 @@
 fd3598,127.0.0.1,GET,http://localhost/Symfony-Bootstrap/Symfony/web/app_dev.php/hopital/accueil,1442940168,
 a80739,127.0.0.1,GET,http://localhost/Symfony-Bootstrap/Symfony/web/app_dev.php/hopital/accueil/,1442940168,
 c2e891,127.0.0.1,GET,http://localhost/Symfony-Bootstrap/Symfony/web/app_dev.php/hopital/accueil/,1442940246,
+<<<<<<< HEAD
 59d5bc,127.0.0.1,GET,http://localhost/Symfony-Bootstrap/Symfony/web/app_dev.php/hopital/accueil,1442943339,
 255402,127.0.0.1,GET,http://localhost/Symfony-Bootstrap/Symfony/web/app_dev.php/hopital/accueil/,1442943339,
 02a2a8,127.0.0.1,GET,http://localhost/Symfony-Bootstrap/Symfony/web/app_dev.php/hopital/accueil,1443533732,
@@ -30,3 +31,5 @@ e6878f,127.0.0.1,GET,http://localhost/Symfony-Bootstrap/Symfony/web/app_dev.php/
 b03434,127.0.0.1,GET,http://localhost/Symfony-Bootstrap/Symfony/web/app_dev.php/hopital/services/,1443536498,
 af2a79,127.0.0.1,GET,http://localhost/Symfony-Bootstrap/Symfony/web/app_dev.php/hopital/services/,1443536507,
 62a01d,127.0.0.1,GET,http://localhost/Symfony-Bootstrap/Symfony/web/app_dev.php/hopital/services/,1443536518,
+=======
+>>>>>>> 7539ca88f2b8bc04c6e2d2a3b48e5517deca7a56
